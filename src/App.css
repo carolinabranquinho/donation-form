@@ -1,4 +1,16 @@
-.step-container{
+:root {
+  font-size: 16px;
+  background-color: #E7EFFF;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.stepper-menu {
+  padding: 1rem;
+}
+
+.step-container {
   position: relative;
   width: 100dvw;
   height: 90dvh;
@@ -10,11 +22,23 @@
   justify-content: center;
 }
 
-.actions{
+.step-container .form {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+
+.actions {
   position: absolute;
   display: flex;
   bottom: 0.5rem;
   justify-content: space-between;
   width: 100%;
   padding: 0.5rem;
+}
+
+.user-step-info{
+  padding: 3rem 0rem;
 }
